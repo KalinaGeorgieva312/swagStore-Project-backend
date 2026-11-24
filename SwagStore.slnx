@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SwagStore.Api/SwagStore.Api.csproj" />
+  <Project Path="SwagStore.ConsoleApp/SwagStore.ConsoleApp.csproj" />
+  <Project Path="SwagStore.Core/SwagStore.Core.csproj" />
+  <Project Path="SwagStore.Tests/SwagStore.Tests.csproj" />
+</Solution>

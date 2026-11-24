@@ -1,0 +1,730 @@
+[
+  {
+    "Index": "1",
+    "Brand": "Swag",
+    "PriceEuro": 20,
+    "Type": "T-Shirt",
+    "Color": "red"
+  },
+  {
+    "Index": "2",
+    "Brand": "Star",
+    "PriceEuro": 50,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "3",
+    "Brand": "Seven",
+    "PriceEuro": 75,
+    "Type": "Jacke",
+    "Color": "brown"
+  },
+  {
+    "Index": "4",
+    "Brand": "Slimm",
+    "PriceEuro": 35,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "5",
+    "Brand": "Swag",
+    "PriceEuro": 42,
+    "Type": "T-Shirt",
+    "Color": "black"
+  },
+  {
+    "Index": "6",
+    "Brand": "Urban",
+    "PriceEuro": 65,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "7",
+    "Brand": "Star",
+    "PriceEuro": 85,
+    "Type": "Jacke",
+    "Color": "green"
+  },
+  {
+    "Index": "8",
+    "Brand": "Classic",
+    "PriceEuro": 28,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "9",
+    "Brand": "Seven",
+    "PriceEuro": 55,
+    "Type": "Shirt",
+    "Color": "gray"
+  },
+  {
+    "Index": "10",
+    "Brand": "Slimm",
+    "PriceEuro": 30,
+    "Type": "Shorts",
+    "Color": "beige"
+  },
+  {
+    "Index": "11",
+    "Brand": "Fashion",
+    "PriceEuro": 95,
+    "Type": "Dress",
+    "Color": "purple"
+  },
+  {
+    "Index": "12",
+    "Brand": "Swag",
+    "PriceEuro": 48,
+    "Type": "Hoodie",
+    "Color": "orange"
+  },
+  {
+    "Index": "13",
+    "Brand": "Modern",
+    "PriceEuro": 72,
+    "Type": "Pants",
+    "Color": "black"
+  },
+  {
+    "Index": "14",
+    "Brand": "Star",
+    "PriceEuro": 110,
+    "Type": "Jacket",
+    "Color": "brown"
+  },
+  {
+    "Index": "15",
+    "Brand": "Style",
+    "PriceEuro": 25,
+    "Type": "T-Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "16",
+    "Brand": "Seven",
+    "PriceEuro": 60,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "17",
+    "Brand": "Prime",
+    "PriceEuro": 38,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "18",
+    "Brand": "Slimm",
+    "PriceEuro": 88,
+    "Type": "Blazer",
+    "Color": "blue"
+  },
+  {
+    "Index": "19",
+    "Brand": "Active",
+    "PriceEuro": 52,
+    "Type": "Sweater",
+    "Color": "red"
+  },
+  {
+    "Index": "20",
+    "Brand": "Swag",
+    "PriceEuro": 45,
+    "Type": "Skirt",
+    "Color": "green"
+  },
+  {
+    "Index": "21",
+    "Brand": "Casual",
+    "PriceEuro": 33,
+    "Type": "T-Shirt",
+    "Color": "white"
+  },
+  {
+    "Index": "22",
+    "Brand": "Elite",
+    "PriceEuro": 120,
+    "Type": "Coat",
+    "Color": "black"
+  },
+  {
+    "Index": "23",
+    "Brand": "Star",
+    "PriceEuro": 58,
+    "Type": "Jeans",
+    "Color": "gray"
+  },
+  {
+    "Index": "24",
+    "Brand": "Trend",
+    "PriceEuro": 40,
+    "Type": "Hoodie",
+    "Color": "blue"
+  },
+  {
+    "Index": "25",
+    "Brand": "Seven",
+    "PriceEuro": 70,
+    "Type": "Jacke",
+    "Color": "brown"
+  },
+  {
+    "Index": "26",
+    "Brand": "Urban",
+    "PriceEuro": 35,
+    "Type": "Shirt",
+    "Color": "pink"
+  },
+  {
+    "Index": "27",
+    "Brand": "Slimm",
+    "PriceEuro": 62,
+    "Type": "Dress",
+    "Color": "red"
+  },
+  {
+    "Index": "28",
+    "Brand": "Fashion",
+    "PriceEuro": 98,
+    "Type": "Jacket",
+    "Color": "gray"
+  },
+  {
+    "Index": "29",
+    "Brand": "Swag",
+    "PriceEuro": 38,
+    "Type": "T-Shirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "30",
+    "Brand": "Classic",
+    "PriceEuro": 75,
+    "Type": "Pants",
+    "Color": "beige"
+  },
+  {
+    "Index": "31",
+    "Brand": "Star",
+    "PriceEuro": 55,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "32",
+    "Brand": "Modern",
+    "PriceEuro": 82,
+    "Type": "Sweater",
+    "Color": "purple"
+  },
+  {
+    "Index": "33",
+    "Brand": "Seven",
+    "PriceEuro": 45,
+    "Type": "Shorts",
+    "Color": "green"
+  },
+  {
+    "Index": "34",
+    "Brand": "Prime",
+    "PriceEuro": 105,
+    "Type": "Coat",
+    "Color": "blue"
+  },
+  {
+    "Index": "35",
+    "Brand": "Slimm",
+    "PriceEuro": 28,
+    "Type": "T-Shirt",
+    "Color": "orange"
+  },
+  {
+    "Index": "36",
+    "Brand": "Style",
+    "PriceEuro": 68,
+    "Type": "Jeans",
+    "Color": "black"
+  },
+  {
+    "Index": "37",
+    "Brand": "Active",
+    "PriceEuro": 42,
+    "Type": "Hoodie",
+    "Color": "gray"
+  },
+  {
+    "Index": "38",
+    "Brand": "Swag",
+    "PriceEuro": 55,
+    "Type": "Skirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "39",
+    "Brand": "Casual",
+    "PriceEuro": 35,
+    "Type": "Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "40",
+    "Brand": "Elite",
+    "PriceEuro": 135,
+    "Type": "Blazer",
+    "Color": "gray"
+  },
+  {
+    "Index": "41",
+    "Brand": "Star",
+    "PriceEuro": 60,
+    "Type": "Jacke",
+    "Color": "red"
+  },
+  {
+    "Index": "42",
+    "Brand": "Trend",
+    "PriceEuro": 48,
+    "Type": "Dress",
+    "Color": "pink"
+  },
+  {
+    "Index": "43",
+    "Brand": "Seven",
+    "PriceEuro": 78,
+    "Type": "Jacket",
+    "Color": "black"
+  },
+  {
+    "Index": "44",
+    "Brand": "Urban",
+    "PriceEuro": 32,
+    "Type": "T-Shirt",
+    "Color": "green"
+  },
+  {
+    "Index": "45",
+    "Brand": "Slimm",
+    "PriceEuro": 65,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "46",
+    "Brand": "Fashion",
+    "PriceEuro": 90,
+    "Type": "Coat",
+    "Color": "brown"
+  },
+  {
+    "Index": "47",
+    "Brand": "Swag",
+    "PriceEuro": 40,
+    "Type": "blouse",
+    "Color": "purple"
+  },
+  {
+    "Index": "48",
+    "Brand": "Classic",
+    "PriceEuro": 72,
+    "Type": "Pants",
+    "Color": "gray"
+  },
+  {
+    "Index": "49",
+    "Brand": "Star",
+    "PriceEuro": 52,
+    "Type": "Hoodie",
+    "Color": "red"
+  },
+  {
+    "Index": "50",
+    "Brand": "Modern",
+    "PriceEuro": 85,
+    "Type": "Skirt",
+    "Color": "black"
+  },
+  {
+    "Index": "51",
+    "Brand": "Seven",
+    "PriceEuro": 45,
+    "Type": "Shirt",
+    "Color": "white"
+  },
+  {
+    "Index": "52",
+    "Brand": "Prime",
+    "PriceEuro": 115,
+    "Type": "Jacket",
+    "Color": "blue"
+  },
+  {
+    "Index": "53",
+    "Brand": "Slimm",
+    "PriceEuro": 35,
+    "Type": "T-Shirt",
+    "Color": "red"
+  },
+  {
+    "Index": "54",
+    "Brand": "Style",
+    "PriceEuro": 62,
+    "Type": "Jeans",
+    "Color": "gray"
+  },
+  {
+    "Index": "55",
+    "Brand": "Active",
+    "PriceEuro": 48,
+    "Type": "Sweater",
+    "Color": "blue"
+  },
+  {
+    "Index": "56",
+    "Brand": "Swag",
+    "PriceEuro": 50,
+    "Type": "Dress",
+    "Color": "green"
+  },
+  {
+    "Index": "57",
+    "Brand": "Casual",
+    "PriceEuro": 30,
+    "Type": "Shorts",
+    "Color": "beige"
+  },
+  {
+    "Index": "58",
+    "Brand": "Elite",
+    "PriceEuro": 145,
+    "Type": "Coat",
+    "Color": "black"
+  },
+  {
+    "Index": "59",
+    "Brand": "Star",
+    "PriceEuro": 58,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "60",
+    "Brand": "Trend",
+    "PriceEuro": 55,
+    "Type": "Jacke",
+    "Color": "black"
+  },
+  {
+    "Index": "61",
+    "Brand": "Seven",
+    "PriceEuro": 75,
+    "Type": "Blazer",
+    "Color": "blue"
+  },
+  {
+    "Index": "62",
+    "Brand": "Urban",
+    "PriceEuro": 38,
+    "Type": "T-Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "63",
+    "Brand": "Slimm",
+    "PriceEuro": 68,
+    "Type": "Pants",
+    "Color": "black"
+  },
+  {
+    "Index": "64",
+    "Brand": "Fashion",
+    "PriceEuro": 95,
+    "Type": "Dress",
+    "Color": "purple"
+  },
+  {
+    "Index": "65",
+    "Brand": "Swag",
+    "PriceEuro": 42,
+    "Type": "Hoodie",
+    "Color": "red"
+  },
+  {
+    "Index": "66",
+    "Brand": "Classic",
+    "PriceEuro": 65,
+    "Type": "Shirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "67",
+    "Brand": "Star",
+    "PriceEuro": 50,
+    "Type": "Skirt",
+    "Color": "red"
+  },
+  {
+    "Index": "68",
+    "Brand": "Modern",
+    "PriceEuro": 88,
+    "Type": "Jacket",
+    "Color": "gray"
+  },
+  {
+    "Index": "69",
+    "Brand": "Seven",
+    "PriceEuro": 48,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "70",
+    "Brand": "Prime",
+    "PriceEuro": 108,
+    "Type": "Coat",
+    "Color": "brown"
+  },
+  {
+    "Index": "71",
+    "Brand": "Slimm",
+    "PriceEuro": 32,
+    "Type": "T-Shirt",
+    "Color": "green"
+  },
+  {
+    "Index": "72",
+    "Brand": "Style",
+    "PriceEuro": 60,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "73",
+    "Brand": "Active",
+    "PriceEuro": 45,
+    "Type": "Sweater",
+    "Color": "orange"
+  },
+  {
+    "Index": "74",
+    "Brand": "Swag",
+    "PriceEuro": 52,
+    "Type": "Shorts",
+    "Color": "blue"
+  },
+  {
+    "Index": "75",
+    "Brand": "Casual",
+    "PriceEuro": 28,
+    "Type": "T-Shirt",
+    "Color": "purple"
+  },
+  {
+    "Index": "76",
+    "Brand": "Elite",
+    "PriceEuro": 125,
+    "Type": "Blazer",
+    "Color": "black"
+  },
+  {
+    "Index": "77",
+    "Brand": "Star",
+    "PriceEuro": 55,
+    "Type": "Jacke",
+    "Color": "green"
+  },
+  {
+    "Index": "78",
+    "Brand": "Trend",
+    "PriceEuro": 58,
+    "Type": "Dress",
+    "Color": "red"
+  },
+  {
+    "Index": "79",
+    "Brand": "Seven",
+    "PriceEuro": 82,
+    "Type": "Jacket",
+    "Color": "gray"
+  },
+  {
+    "Index": "80",
+    "Brand": "Urban",
+    "PriceEuro": 35,
+    "Type": "Shirt",
+    "Color": "pink"
+  },
+  {
+    "Index": "81",
+    "Brand": "Slimm",
+    "PriceEuro": 70,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "82",
+    "Brand": "Fashion",
+    "PriceEuro": 92,
+    "Type": "Pants",
+    "Color": "beige"
+  },
+  {
+    "Index": "83",
+    "Brand": "Swag",
+    "PriceEuro": 45,
+    "Type": "Hoodie",
+    "Color": "yellow"
+  },
+  {
+    "Index": "84",
+    "Brand": "Classic",
+    "PriceEuro": 72,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "85",
+    "Brand": "Star",
+    "PriceEuro": 48,
+    "Type": "Skirt",
+    "Color": "purple"
+  },
+  {
+    "Index": "86",
+    "Brand": "Modern",
+    "PriceEuro": 90,
+    "Type": "Coat",
+    "Color": "brown"
+  },
+  {
+    "Index": "87",
+    "Brand": "Seven",
+    "PriceEuro": 50,
+    "Type": "Shorts",
+    "Color": "green"
+  },
+  {
+    "Index": "88",
+    "Brand": "Prime",
+    "PriceEuro": 112,
+    "Type": "Jacket",
+    "Color": "black"
+  },
+  {
+    "Index": "89",
+    "Brand": "Slimm",
+    "PriceEuro": 38,
+    "Type": "T-Shirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "90",
+    "Brand": "Style",
+    "PriceEuro": 65,
+    "Type": "Dress",
+    "Color": "green"
+  },
+  {
+    "Index": "91",
+    "Brand": "Active",
+    "PriceEuro": 42,
+    "Type": "Sweater",
+    "Color": "orange"
+  },
+  {
+    "Index": "92",
+    "Brand": "Swag",
+    "PriceEuro": 48,
+    "Type": "Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "93",
+    "Brand": "Casual",
+    "PriceEuro": 32,
+    "Type": "T-Shirt",
+    "Color": "brown"
+  },
+  {
+    "Index": "94",
+    "Brand": "Elite",
+    "PriceEuro": 138,
+    "Type": "Coat",
+    "Color": "black"
+  },
+  {
+    "Index": "95",
+    "Brand": "Star",
+    "PriceEuro": 52,
+    "Type": "Jacke",
+    "Color": "green"
+  },
+  {
+    "Index": "96",
+    "Brand": "Trend",
+    "PriceEuro": 62,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "97",
+    "Brand": "Seven",
+    "PriceEuro": 80,
+    "Type": "Blazer",
+    "Color": "gray"
+  },
+  {
+    "Index": "98",
+    "Brand": "Urban",
+    "PriceEuro": 40,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "99",
+    "Brand": "Slimm",
+    "PriceEuro": 75,
+    "Type": "Pants",
+    "Color": "beige"
+  },
+  {
+    "Index": "100",
+    "Brand": "Fashion",
+    "PriceEuro": 88,
+    "Type": "Dress",
+    "Color": "purple"
+  },
+  {
+    "Index": "101",
+    "Brand": "Swag",
+    "PriceEuro": 50,
+    "Type": "Hoodie",
+    "Color": "gray"
+  },
+  {
+    "Index": "102",
+    "Brand": "Classic",
+    "PriceEuro": 68,
+    "Type": "Skirt",
+    "Color": "white"
+  },
+  {
+    "Index": "103",
+    "Brand": "Star",
+    "PriceEuro": 45,
+    "Type": "Shorts",
+    "Color": "red"
+  },
+  {
+    "Index": "104",
+    "Brand": "Modern",
+    "PriceEuro": 95,
+    "Type": "Jacket",
+    "Color": "black"
+  }
+]

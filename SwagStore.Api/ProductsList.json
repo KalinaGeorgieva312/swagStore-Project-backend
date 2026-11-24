@@ -1,0 +1,730 @@
+[
+  {
+    "Index": "1",
+    "Brand": "001",
+    "PriceEuro": 20,
+    "Type": "T-Shirt",
+    "Color": "red"
+  },
+  {
+    "Index": "2",
+    "Brand": "002",
+    "PriceEuro": 50,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "3",
+    "Brand": "003",
+    "PriceEuro": 75,
+    "Type": "Jacke",
+    "Color": "brown"
+  },
+  {
+    "Index": "4",
+    "Brand": "004",
+    "PriceEuro": 35,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "5",
+    "Brand": "001",
+    "PriceEuro": 54,
+    "Type": "T-Shirt",
+    "Color": "black"
+  },
+  {
+    "Index": "6",
+    "Brand": "005",
+    "PriceEuro": 65,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "7",
+    "Brand": "002",
+    "PriceEuro": 85,
+    "Type": "Jacke",
+    "Color": "green"
+  },
+  {
+    "Index": "8",
+    "Brand": "006",
+    "PriceEuro": 28,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "9",
+    "Brand": "003",
+    "PriceEuro": 55,
+    "Type": "Shirt",
+    "Color": "gray"
+  },
+  {
+    "Index": "10",
+    "Brand": "004",
+    "PriceEuro": 30,
+    "Type": "Shorts",
+    "Color": "beige"
+  },
+  {
+    "Index": "11",
+    "Brand": "007",
+    "PriceEuro": 95,
+    "Type": "Dress",
+    "Color": "purple"
+  },
+  {
+    "Index": "12",
+    "Brand": "001",
+    "PriceEuro": 48,
+    "Type": "Hoodie",
+    "Color": "orange"
+  },
+  {
+    "Index": "13",
+    "Brand": "008",
+    "PriceEuro": 72,
+    "Type": "Pants",
+    "Color": "black"
+  },
+  {
+    "Index": "14",
+    "Brand": "002",
+    "PriceEuro": 110,
+    "Type": "Jacket",
+    "Color": "brown"
+  },
+  {
+    "Index": "15",
+    "Brand": "009",
+    "PriceEuro": 25,
+    "Type": "T-Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "16",
+    "Brand": "003",
+    "PriceEuro": 60,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "17",
+    "Brand": "010",
+    "PriceEuro": 38,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "18",
+    "Brand": "004",
+    "PriceEuro": 88,
+    "Type": "Blazer",
+    "Color": "blue"
+  },
+  {
+    "Index": "19",
+    "Brand": "011",
+    "PriceEuro": 52,
+    "Type": "Sweater",
+    "Color": "red"
+  },
+  {
+    "Index": "20",
+    "Brand": "001",
+    "PriceEuro": 45,
+    "Type": "Skirt",
+    "Color": "green"
+  },
+  {
+    "Index": "21",
+    "Brand": "012",
+    "PriceEuro": 33,
+    "Type": "T-Shirt",
+    "Color": "white"
+  },
+  {
+    "Index": "22",
+    "Brand": "013",
+    "PriceEuro": 120,
+    "Type": "Coat",
+    "Color": "black"
+  },
+  {
+    "Index": "23",
+    "Brand": "002",
+    "PriceEuro": 58,
+    "Type": "Jeans",
+    "Color": "gray"
+  },
+  {
+    "Index": "24",
+    "Brand": "014",
+    "PriceEuro": 40,
+    "Type": "Hoodie",
+    "Color": "blue"
+  },
+  {
+    "Index": "25",
+    "Brand": "003",
+    "PriceEuro": 70,
+    "Type": "Jacke",
+    "Color": "brown"
+  },
+  {
+    "Index": "26",
+    "Brand": "005",
+    "PriceEuro": 35,
+    "Type": "Shirt",
+    "Color": "pink"
+  },
+  {
+    "Index": "27",
+    "Brand": "004",
+    "PriceEuro": 62,
+    "Type": "Dress",
+    "Color": "red"
+  },
+  {
+    "Index": "28",
+    "Brand": "007",
+    "PriceEuro": 98,
+    "Type": "Jacket",
+    "Color": "gray"
+  },
+  {
+    "Index": "29",
+    "Brand": "001",
+    "PriceEuro": 38,
+    "Type": "T-Shirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "30",
+    "Brand": "006",
+    "PriceEuro": 75,
+    "Type": "Pants",
+    "Color": "beige"
+  },
+  {
+    "Index": "31",
+    "Brand": "002",
+    "PriceEuro": 55,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "32",
+    "Brand": "008",
+    "PriceEuro": 82,
+    "Type": "Sweater",
+    "Color": "purple"
+  },
+  {
+    "Index": "33",
+    "Brand": "003",
+    "PriceEuro": 45,
+    "Type": "Shorts",
+    "Color": "green"
+  },
+  {
+    "Index": "34",
+    "Brand": "010",
+    "PriceEuro": 105,
+    "Type": "Coat",
+    "Color": "blue"
+  },
+  {
+    "Index": "35",
+    "Brand": "004",
+    "PriceEuro": 28,
+    "Type": "T-Shirt",
+    "Color": "orange"
+  },
+  {
+    "Index": "36",
+    "Brand": "009",
+    "PriceEuro": 68,
+    "Type": "Jeans",
+    "Color": "black"
+  },
+  {
+    "Index": "37",
+    "Brand": "011",
+    "PriceEuro": 42,
+    "Type": "Hoodie",
+    "Color": "gray"
+  },
+  {
+    "Index": "38",
+    "Brand": "001",
+    "PriceEuro": 55,
+    "Type": "Skirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "39",
+    "Brand": "012",
+    "PriceEuro": 35,
+    "Type": "Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "40",
+    "Brand": "013",
+    "PriceEuro": 135,
+    "Type": "Blazer",
+    "Color": "gray"
+  },
+  {
+    "Index": "41",
+    "Brand": "002",
+    "PriceEuro": 60,
+    "Type": "Jacke",
+    "Color": "red"
+  },
+  {
+    "Index": "42",
+    "Brand": "014",
+    "PriceEuro": 48,
+    "Type": "Dress",
+    "Color": "pink"
+  },
+  {
+    "Index": "43",
+    "Brand": "003",
+    "PriceEuro": 78,
+    "Type": "Jacket",
+    "Color": "black"
+  },
+  {
+    "Index": "44",
+    "Brand": "005",
+    "PriceEuro": 32,
+    "Type": "T-Shirt",
+    "Color": "green"
+  },
+  {
+    "Index": "45",
+    "Brand": "004",
+    "PriceEuro": 65,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "46",
+    "Brand": "007",
+    "PriceEuro": 90,
+    "Type": "Coat",
+    "Color": "brown"
+  },
+  {
+    "Index": "47",
+    "Brand": "001",
+    "PriceEuro": 40,
+    "Type": "blouse",
+    "Color": "purple"
+  },
+  {
+    "Index": "48",
+    "Brand": "006",
+    "PriceEuro": 72,
+    "Type": "Pants",
+    "Color": "gray"
+  },
+  {
+    "Index": "49",
+    "Brand": "002",
+    "PriceEuro": 52,
+    "Type": "Hoodie",
+    "Color": "red"
+  },
+  {
+    "Index": "50",
+    "Brand": "008",
+    "PriceEuro": 85,
+    "Type": "Skirt",
+    "Color": "black"
+  },
+  {
+    "Index": "51",
+    "Brand": "003",
+    "PriceEuro": 45,
+    "Type": "Shirt",
+    "Color": "white"
+  },
+  {
+    "Index": "52",
+    "Brand": "010",
+    "PriceEuro": 115,
+    "Type": "Jacket",
+    "Color": "blue"
+  },
+  {
+    "Index": "53",
+    "Brand": "004",
+    "PriceEuro": 35,
+    "Type": "T-Shirt",
+    "Color": "red"
+  },
+  {
+    "Index": "54",
+    "Brand": "009",
+    "PriceEuro": 62,
+    "Type": "Jeans",
+    "Color": "gray"
+  },
+  {
+    "Index": "55",
+    "Brand": "011",
+    "PriceEuro": 48,
+    "Type": "Sweater",
+    "Color": "blue"
+  },
+  {
+    "Index": "56",
+    "Brand": "001",
+    "PriceEuro": 50,
+    "Type": "Dress",
+    "Color": "green"
+  },
+  {
+    "Index": "57",
+    "Brand": "012",
+    "PriceEuro": 30,
+    "Type": "Shorts",
+    "Color": "beige"
+  },
+  {
+    "Index": "58",
+    "Brand": "013",
+    "PriceEuro": 145,
+    "Type": "Coat",
+    "Color": "black"
+  },
+  {
+    "Index": "59",
+    "Brand": "002",
+    "PriceEuro": 58,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "60",
+    "Brand": "014",
+    "PriceEuro": 55,
+    "Type": "Jacke",
+    "Color": "black"
+  },
+  {
+    "Index": "61",
+    "Brand": "003",
+    "PriceEuro": 75,
+    "Type": "Blazer",
+    "Color": "blue"
+  },
+  {
+    "Index": "62",
+    "Brand": "005",
+    "PriceEuro": 38,
+    "Type": "T-Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "63",
+    "Brand": "004",
+    "PriceEuro": 68,
+    "Type": "Pants",
+    "Color": "black"
+  },
+  {
+    "Index": "64",
+    "Brand": "007",
+    "PriceEuro": 95,
+    "Type": "Dress",
+    "Color": "purple"
+  },
+  {
+    "Index": "65",
+    "Brand": "001",
+    "PriceEuro": 42,
+    "Type": "Hoodie",
+    "Color": "red"
+  },
+  {
+    "Index": "66",
+    "Brand": "006",
+    "PriceEuro": 65,
+    "Type": "Shirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "67",
+    "Brand": "002",
+    "PriceEuro": 50,
+    "Type": "Skirt",
+    "Color": "red"
+  },
+  {
+    "Index": "68",
+    "Brand": "008",
+    "PriceEuro": 88,
+    "Type": "Jacket",
+    "Color": "gray"
+  },
+  {
+    "Index": "69",
+    "Brand": "003",
+    "PriceEuro": 48,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "70",
+    "Brand": "010",
+    "PriceEuro": 108,
+    "Type": "Coat",
+    "Color": "brown"
+  },
+  {
+    "Index": "71",
+    "Brand": "004",
+    "PriceEuro": 32,
+    "Type": "T-Shirt",
+    "Color": "green"
+  },
+  {
+    "Index": "72",
+    "Brand": "009",
+    "PriceEuro": 60,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "73",
+    "Brand": "011",
+    "PriceEuro": 45,
+    "Type": "Sweater",
+    "Color": "orange"
+  },
+  {
+    "Index": "74",
+    "Brand": "001",
+    "PriceEuro": 52,
+    "Type": "Shorts",
+    "Color": "blue"
+  },
+  {
+    "Index": "75",
+    "Brand": "012",
+    "PriceEuro": 28,
+    "Type": "T-Shirt",
+    "Color": "purple"
+  },
+  {
+    "Index": "76",
+    "Brand": "013",
+    "PriceEuro": 125,
+    "Type": "Blazer",
+    "Color": "black"
+  },
+  {
+    "Index": "77",
+    "Brand": "002",
+    "PriceEuro": 55,
+    "Type": "Jacke",
+    "Color": "green"
+  },
+  {
+    "Index": "78",
+    "Brand": "014",
+    "PriceEuro": 58,
+    "Type": "Dress",
+    "Color": "red"
+  },
+  {
+    "Index": "79",
+    "Brand": "003",
+    "PriceEuro": 82,
+    "Type": "Jacket",
+    "Color": "gray"
+  },
+  {
+    "Index": "80",
+    "Brand": "005",
+    "PriceEuro": 35,
+    "Type": "Shirt",
+    "Color": "pink"
+  },
+  {
+    "Index": "81",
+    "Brand": "004",
+    "PriceEuro": 70,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "82",
+    "Brand": "007",
+    "PriceEuro": 92,
+    "Type": "Pants",
+    "Color": "beige"
+  },
+  {
+    "Index": "83",
+    "Brand": "001",
+    "PriceEuro": 45,
+    "Type": "Hoodie",
+    "Color": "yellow"
+  },
+  {
+    "Index": "84",
+    "Brand": "006",
+    "PriceEuro": 72,
+    "Type": "blouse",
+    "Color": "white"
+  },
+  {
+    "Index": "85",
+    "Brand": "002",
+    "PriceEuro": 48,
+    "Type": "Skirt",
+    "Color": "purple"
+  },
+  {
+    "Index": "86",
+    "Brand": "008",
+    "PriceEuro": 90,
+    "Type": "Coat",
+    "Color": "brown"
+  },
+  {
+    "Index": "87",
+    "Brand": "003",
+    "PriceEuro": 50,
+    "Type": "Shorts",
+    "Color": "green"
+  },
+  {
+    "Index": "88",
+    "Brand": "010",
+    "PriceEuro": 112,
+    "Type": "Jacket",
+    "Color": "black"
+  },
+  {
+    "Index": "89",
+    "Brand": "004",
+    "PriceEuro": 38,
+    "Type": "T-Shirt",
+    "Color": "blue"
+  },
+  {
+    "Index": "90",
+    "Brand": "009",
+    "PriceEuro": 65,
+    "Type": "Dress",
+    "Color": "green"
+  },
+  {
+    "Index": "91",
+    "Brand": "011",
+    "PriceEuro": 42,
+    "Type": "Sweater",
+    "Color": "orange"
+  },
+  {
+    "Index": "92",
+    "Brand": "001",
+    "PriceEuro": 48,
+    "Type": "Shirt",
+    "Color": "yellow"
+  },
+  {
+    "Index": "93",
+    "Brand": "012",
+    "PriceEuro": 32,
+    "Type": "T-Shirt",
+    "Color": "brown"
+  },
+  {
+    "Index": "94",
+    "Brand": "013",
+    "PriceEuro": 138,
+    "Type": "Coat",
+    "Color": "black"
+  },
+  {
+    "Index": "95",
+    "Brand": "002",
+    "PriceEuro": 52,
+    "Type": "Jacke",
+    "Color": "green"
+  },
+  {
+    "Index": "96",
+    "Brand": "014",
+    "PriceEuro": 62,
+    "Type": "Jeans",
+    "Color": "blue"
+  },
+  {
+    "Index": "97",
+    "Brand": "003",
+    "PriceEuro": 80,
+    "Type": "Blazer",
+    "Color": "gray"
+  },
+  {
+    "Index": "98",
+    "Brand": "005",
+    "PriceEuro": 40,
+    "Type": "blouse",
+    "Color": "pink"
+  },
+  {
+    "Index": "99",
+    "Brand": "004",
+    "PriceEuro": 75,
+    "Type": "Pants",
+    "Color": "beige"
+  },
+  {
+    "Index": "100",
+    "Brand": "007",
+    "PriceEuro": 88,
+    "Type": "Dress",
+    "Color": "purple"
+  },
+  {
+    "Index": "101",
+    "Brand": "001",
+    "PriceEuro": 50,
+    "Type": "Hoodie",
+    "Color": "gray"
+  },
+  {
+    "Index": "102",
+    "Brand": "006",
+    "PriceEuro": 68,
+    "Type": "Skirt",
+    "Color": "white"
+  },
+  {
+    "Index": "103",
+    "Brand": "002",
+    "PriceEuro": 45,
+    "Type": "Shorts",
+    "Color": "red"
+  },
+  {
+    "Index": "104",
+    "Brand": "008",
+    "PriceEuro": 95,
+    "Type": "Jacket",
+    "Color": "black"
+  }
+]
