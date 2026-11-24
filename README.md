@@ -57,9 +57,9 @@ CRUD controllers and shopping cart logic, communicating with the frontend:
                     Password: asdf
 
 ## Project Structure
-API: - Controllers   # Users, Products, Admin
+- API: - Controllers   # Users, Products, Admin
      - Services      # Shopping carts manager
      - JSON files    # Users, Products, Brands + copies
-ConsoleApp:          # Presentation layer
-Core:                # Core logic, Product and User properties
-Tests:               # xUnit tests for core logic
+- ConsoleApp:          # Presentation layer
+- Core:                # Core logic, Product and User properties
+- Tests:               # xUnit tests for core logic
