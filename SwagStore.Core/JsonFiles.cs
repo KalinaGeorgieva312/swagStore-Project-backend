@@ -17,13 +17,13 @@ namespace swagStore.Business
         /// <summary>
         /// Users list with parameters and its serialization to json
         /// </summary>
-        public static void UserJson() 
+        public static void UserJson()
         {
             List<User> users = new List<User>();
 
             users.Add(new User() { UserName = "Alice", Balance = 100, Hash = "5168C3A1A57E9A089C03EB45C20BCFC041D041222CD08F873F521E9CACECF429DA4F884A2167ECA8DF80EE7D772922CBDB9B31192C0ECC98EAB321AC2C87A524" });
             users.Add(new User() { UserName = "Bob", Balance = 100, Hash = "48C8947F69C054A5CAA934674CE8881D02BB18FB59D5A63EEADDFF735B0E9801E87294783281AE49FC8287A0FD86779B27D7972D3E84F0FA0D826D7CB67DFEFC" });
-            users.Add(new User() { UserName = "John", Balance = 100, Hash = "8E7444A03F74BD79D47FA28E67227FAB8B3059E9B0C599F10BAEF200FAC65C17395E334E4E0523812CEA6E2F8179DCCC901F6F2EC7B097055CB0FCD25EE95495" });
+            users.Add(new User() { UserName = "Admin", Balance = 100, Hash = "8D88CF5B20F53ACD7AE1479B5B36DC2021753B049902C77247BB27B131B300BD3CA8BEEF28756DCE27B8990867C4577A2535E7E3B75141399CA1A94CC84B0EB9" });
 
             string usersFileName = "UsersList.json";
             string jsonUsersString = JsonSerializer.Serialize(users, new JsonSerializerOptions() { WriteIndented = true });
@@ -33,7 +33,7 @@ namespace swagStore.Business
         /// <summary>
         /// Products list with parameters and its serialization to json
         /// </summary>
-        public static void ProductJson() 
+        public static void ProductJson()
         {
             List<Product> products = new List<Product>();
 
@@ -65,6 +65,7 @@ namespace swagStore.Business
 
             return products;
         }
+
 
         /// <summary>
         /// Method to serialize the users list after changes or additions made to it
