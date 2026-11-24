@@ -20,7 +20,7 @@ File.WriteAllText(name, jsonS);
 
 BrandGrouping.UpdateProducts();
 
-/*string usersFileName = "UsersList.json";
+string usersFileName = "UsersList.json";
 string jsonUsersString = File.ReadAllText(usersFileName);
 List<User?> users = JsonSerializer.Deserialize<List<User?>>(jsonUsersString) ??
     throw new Exception("User List ist leer.");
@@ -148,5 +148,5 @@ else
     {
         Console.WriteLine("\nUngültiger Befehl!");
     }
-}*/
+}
 
