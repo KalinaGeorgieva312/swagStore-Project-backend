@@ -46,8 +46,15 @@ CRUD controllers and shopping cart logic, communicating with the frontend:
 - JSON file database
 
 ## Installation
-
-## Execution
+1. Clone the repository from your terminal:
+   git clone https://github.com/KalinaGeorgieva312/swagStore-Project-backend.git
+2. Open the cloned solution folder.
+3. Run the solution by opening 'SwagStore.slnx' in Visual Studio
+4. Log in with the test credentials:
+   - to test user: Username: Bob
+                   Password: 123
+   - to test admin: Username: Admin
+                    Password: asdf
 
 ## Project Structure
 API: - Controllers   # Users, Products, Admin
