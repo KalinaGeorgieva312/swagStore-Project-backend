@@ -20,9 +20,6 @@ File.WriteAllText(name, jsonS);
 
 BrandGrouping.UpdateProducts();
 
-JsonFiles.UserJson();
-JsonFiles.ProductJson();
-
 string usersFileName = "UsersList.json";
 string jsonUsersString = File.ReadAllText(usersFileName);
 List<User?> users = JsonSerializer.Deserialize<List<User?>>(jsonUsersString) ??
