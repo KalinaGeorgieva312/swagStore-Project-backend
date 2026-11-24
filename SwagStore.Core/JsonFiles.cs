@@ -60,10 +60,21 @@ namespace swagStore.Business
         public static List<Product> ProductDeserializer()
         {
             string fileName = "ProductsList.json";
-            string jsonString = File.ReadAllText(fileName);
-            List<Product?>? products = JsonSerializer.Deserialize<List<Product?>>(jsonString);
+            if (File.Exists(fileName))
+            {
+                string jsonString = File.ReadAllText(fileName);
+                List<Product?>? products = JsonSerializer.Deserialize<List<Product?>>(jsonString);
 
-            return products;
+                return products;
+            }
+            else
+            {
+                ProductJson();
+                string jsonString = File.ReadAllText(fileName);
+                List<Product?>? products = JsonSerializer.Deserialize<List<Product?>>(jsonString);
+
+                return products;
+            }
         }
 
 
@@ -81,10 +92,21 @@ namespace swagStore.Business
         public static List<User> UserDeserializer()
         {
             string usersFileName = "UsersList.json";
-            string jsonUsersString = File.ReadAllText(usersFileName);
-            List<User?>? users = JsonSerializer.Deserialize<List<User?>>(jsonUsersString);
+            if (File.Exists(usersFileName))
+            {
+                string jsonUsersString = File.ReadAllText(usersFileName);
+                List<User?>? users = JsonSerializer.Deserialize<List<User?>>(jsonUsersString);
 
-            return users;
+                return users;
+            }
+            else 
+            { 
+                UserJson();
+                string jsonUsersString = File.ReadAllText(usersFileName);
+                List<User?>? users = JsonSerializer.Deserialize<List<User?>>(jsonUsersString);
+
+                return users;
+            }
         }
 
         public static List<Brands> BrandsDeserializer()
