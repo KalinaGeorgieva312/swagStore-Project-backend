@@ -95,6 +95,51 @@ namespace SwagStore.Api.Controllers
             }
         }
 
+        [HttpPost("addNewProduct")]
+        public IActionResult NewProductAddition([FromBody] NewProduct request)
+        {
+            if (request == null) { return BadRequest("Empty product properties."); }
+
+            List<Product> products = JsonFiles.ProductDeserializer();
+
+            string brand = request.Brand;
+            double price = request.PriceEuro;
+            string type = request.Type;
+            string color = request.Color;
+            string index = (products.Count + 1).ToString();
+
+            List<Brands> brandsList = JsonFiles.BrandsDeserializer();
+            var targetBrand = brandsList.FirstOrDefault(x => x.Brand == brand);
+
+            if (targetBrand == null)
+            {
+                int newId = brandsList.Count + 1;
+                string stringId = "0" + newId.ToString();
+                brandsList.Add(new Brands { Id = stringId, Brand = brand });
+
+                JsonFiles.BrandsSerializer(brandsList);
+            }
+
+            targetBrand = brandsList.FirstOrDefault(x => x.Brand == brand);
+
+            if (price > 0 && brand != string.Empty && type != string.Empty && color != string.Empty)
+            {
+                Product newProduct = new Product()
+                {
+                    Index = index,
+                    Brand = targetBrand.Id,
+                    PriceEuro = price,
+                    Type = type,
+                    Color = color
+                };
+                products.Add(newProduct);
+                JsonFiles.ProductSerializer(products);
+                return Ok();
+            }
+
+            return BadRequest("One or more properties are invalid.");
+        }
+
     }
 
     public class ProductRequest
@@ -113,5 +158,13 @@ namespace SwagStore.Api.Controllers
     {
         public string Index { get; set; }
         public string Brand { get; set; }
+    }
+
+    public class NewProduct
+    {
+        public string Brand { get; set; }
+        public double PriceEuro { get; set; }
+        public string Type { get; set; }
+        public string Color { get; set; }
     }
 }
