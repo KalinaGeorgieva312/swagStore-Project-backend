@@ -140,6 +140,95 @@ namespace SwagStore.Api.Controllers
             return BadRequest("One or more properties are invalid.");
         }
 
+        [HttpPost("changeUsername")]
+        public IActionResult ChangeUsername([FromBody] Username request)
+        {
+            if (request == null) { return BadRequest("Empty request."); }
+
+            string old = request.OldUname;
+            string newUsername = request.NewUname;
+
+            List<User> users = JsonFiles.UserDeserializer();
+            var targetUser = users.FirstOrDefault(x => x.UserName == old);
+
+            if (targetUser == null)
+            {
+                return BadRequest("This username doesn't exist.");
+            }
+            else
+            {
+                var exists = users.FirstOrDefault(x => x.UserName == newUsername);
+
+                if (exists == null)
+                {
+                    targetUser.UserName = newUsername;
+                    JsonFiles.UserSerializer(users);
+
+                    return Ok(targetUser);
+                }
+                else
+                {
+                    return BadRequest("Username must be unique!");
+                }
+            }
+        }
+
+        [HttpPost("changeBalance")]
+        public IActionResult ChangeBalance([FromBody] Money request)
+        {
+            if (request == null) { return BadRequest("Empty request"); }
+
+            string username = request.Username;
+            double balance = request.Balance;
+
+            List<User> users = JsonFiles.UserDeserializer();
+            var targetUser = users.FirstOrDefault(x => x.UserName == username);
+
+            if (targetUser == null)
+            {
+                return BadRequest("This username doesn't exist.");
+            }
+            else
+            {
+                targetUser.Balance += balance;
+                JsonFiles.UserSerializer(users);
+
+                return Ok(targetUser);
+            }
+        }
+
+        [HttpPost("changePassword")]
+        public IActionResult ChangePassword([FromBody] NewPassword request)
+        {
+            if (request == null) { return BadRequest("Empty request."); }
+
+            string username = request.Username;
+            string password = request.Password;
+
+            List<User> users = JsonFiles.UserDeserializer();
+            var targetUser = users.FirstOrDefault(x => x.UserName == username);
+
+            if (targetUser == null)
+            {
+                return BadRequest("This username doesn't exist.");
+            }
+            else
+            {
+                string hash = Authentication.HashPassword(password);
+                if (targetUser.Hash == hash)
+                {
+                    return BadRequest("Can't use the same password!");
+                }
+                else
+                {
+                    targetUser.Hash = hash;
+                    JsonFiles.UserSerializer(users);
+
+                    return Ok(targetUser);
+                }
+            }
+        }
+
     }
 
     public class ProductRequest
@@ -166,5 +255,23 @@ namespace SwagStore.Api.Controllers
         public double PriceEuro { get; set; }
         public string Type { get; set; }
         public string Color { get; set; }
+    }
+
+    public class Username
+    {
+        public string OldUname { get; set; }
+        public string NewUname { get; set; }
+    }
+
+    public class Money
+    {
+        public string Username { get; set; }
+        public double Balance { get; set; }
+    }
+
+    public class NewPassword
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
